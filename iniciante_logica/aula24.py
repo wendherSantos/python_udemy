@@ -22,9 +22,8 @@
 # print(10 * '-')
 
 nome = input('Digite o seu nome: ')
-encontrar = input('Digite as letras que deseja encontrar em seu nome: ')
 
-if encontrar in nome:
-    print (f'{encontrar=} está em {nome=}')
+if ' ' in nome:
+    print (f'seu nome {nome} contém espaços')
 else:
-    print (f'{encontrar=} não está em {nome=}')
+    print (f'seu nome {nome} não contém espaços')
