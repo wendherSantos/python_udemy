@@ -23,7 +23,7 @@ while contador <= 100:
         break
 
 
-print('Acabou')
+print('Acabou') 
 
 numero = 0
 
