@@ -40,4 +40,4 @@ while numero < 100:
 
     print(numero)
 
-print('Acabou man')
+print('Acabou mano')
