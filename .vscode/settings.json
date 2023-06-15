@@ -3,7 +3,7 @@
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "python.formatting.provider": "none",
-    "python.linting.pylintEnabled": false,
-    "python.linting.pycodestyleEnabled": true,
-    "python.linting.enabled": false
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.enabled": true
 }
