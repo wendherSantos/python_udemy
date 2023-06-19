@@ -15,4 +15,26 @@ p1 = {
     'surname': 'Legal',
 }
 
-print(p1.get('name'))
+# print(['name'])
+# print(p1.get('name', 'Nao existe'))
+
+# name = p1.pop('name')
+# print(name)
+# print(p1)
+
+# last_key = p1.popitem()
+# print(last_key)
+# print(p1)
+
+# p1.update({
+#     'name': 'new value',
+#     'age' : 30, 
+# })
+
+# p1.update(name='new value', idade=30)
+
+tupla = ('name', 'new value'), ('age', 30)
+# lista = ['name', 'new value'], ['age', 30]
+
+p1.update(tupla)
+print(p1)
